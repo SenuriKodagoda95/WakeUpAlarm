@@ -4,6 +4,7 @@ int data;
 
 void setup() {
 // put your setup code here, to run once:
+//pins
 pinMode(pirPin, INPUT);
 pinMode(RelayPin, OUTPUT);
 Serial.begin(9600);
